@@ -20,14 +20,6 @@ Steps to follow:
 
 4. ansible-playbook main.yml
 
-Components that will be deployed
-
-1. VPC, Two private, two public subnets, two NAT gateways, one internet gateway & one virtual private gateway
-
-2. EKS Cluster and one EKS Nodegroup of t2.medium instance type
-
-3. Cluster Autoscaler to handle any capacity requests
-
 
 Additional comments.
 
