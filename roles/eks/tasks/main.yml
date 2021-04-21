@@ -121,4 +121,4 @@
   register: PETCLINIC_URL
 
 - debug:
-    msg: "{{ PETCLINIC_URL.stdout }}"
+    msg: "http://{{ PETCLINIC_URL.stdout }}"
